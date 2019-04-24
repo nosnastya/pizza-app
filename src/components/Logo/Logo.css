@@ -1,0 +1,8 @@
+.Logo {
+    height: 80%;
+    display: block;
+    box-sizing: border-box;
+}
+.Logo img{
+    height: 100%;
+}

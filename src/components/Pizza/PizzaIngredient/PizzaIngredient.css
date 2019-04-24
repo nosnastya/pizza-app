@@ -1,0 +1,35 @@
+.PizzaBase {
+    background-image: url('../../../assets/images/pizza-base.png');
+    z-index: 0;
+}
+.Salami {
+    background-image: url('../../../assets/images/salami.png');
+    z-index: 2;
+}
+.Ham {
+    background-image: url('../../../assets/images/ham.png');
+    z-index: 3;
+}
+.Olives {
+    background-image: url('../../../assets/images/olives.png');
+    z-index: 4;
+}
+.Tomatoes{
+    background-image: url('../../../assets/images/tomatoes.png');
+    z-index: 1;
+}
+.Cheese {
+    background-image: url('../../../assets/images/cheese.png');
+    z-index: 5;
+}
+.Cheese, .Tomatoes, .Olives, .Ham, .Salami, .PizzaBase{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: contain;
+    transform: perspective(400px) rotateX(40deg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
